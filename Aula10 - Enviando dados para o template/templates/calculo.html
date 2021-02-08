@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resultado</title>
+</head>
+<body>
+	{% if total>= 60 %}
+	<h1>Aprovado</h1>
+	{% elif total >= 40 %}
+	<h1>Recuperação</h1>
+	{% else %}
+	<h1>Reprovado :(</h1>
+	{% endif %}
+</body>
+</html>
